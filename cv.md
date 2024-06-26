@@ -38,7 +38,9 @@ rl.on('line', (input) => {
 });
 ```
 ## Working experience
-2018-2022 - Account and Sales manager at Reed Exhibitions
+2018-2020 - Account and Sales manager at Reed Exhibitions
 
 
-2022 - present - Sales manager at Univibes Project 
+2020-2023 - Sales manager at Univibes Project
+
+2023 - present - Manager in Austrian Institute
