@@ -18,11 +18,24 @@ I have linguistic education and work experience in customer service, but a year 
 
 ## Code example
 ```JavaScript
-function testSum(a, b) {
-    var x;
-    x = a + b;
-    return x;
+const readline = require('readline');
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+// -- ваш код начинается тут
+function lettersCount(str) {
+    let strArray = str.slice(1, -1).split("][");
+    result = strArray.map((element) => element.length).join(", ");
+    return result;
 }
+// -- ваш код заканчивается тут
+rl.on('line', (input) => {
+    let result, str = input.trim();
+    result = lettersCount(str);
+    console.log(result);
+    rl.close();
+});
 ```
 ## Working experience
 2018-2022 - Account and Sales manager at Reed Exhibitions
