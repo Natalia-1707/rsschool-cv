@@ -1,0 +1,149 @@
+html {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+body {
+    margin: 0;
+    width: 1280px;
+    padding: 0;
+}
+
+header {
+    width: 1280px;
+    height: 300px;
+    margin: 0;
+    padding: 0px;
+    border: solid black 1px;
+}
+.header_container {
+    width: 1280px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+}
+.photo {
+    padding-left: 30px;
+}
+.header_description {
+    width: 900px;
+    height: 260px;
+    margin-top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.navigation {
+    width: 800px;
+    height: 80px;
+    padding-left: 100px;
+}
+.nav {
+    list-style-type: none;
+    display: inline-flex;
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    gap: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.CV_name {
+    width: 800px;
+    height: 130px;
+    padding-left: 100px;
+    text-align: center;
+    margin: 0px;
+}
+.my_name {
+    font-family: 'Times New Roman', Times, serif;;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: rgb(85, 107, 47);
+    opacity: 90%;
+    letter-spacing: 1px;
+}
+.my_future_profession {
+    padding: 0px 86px 65px 91px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: rgb(76, 81, 74);
+    opacity: 80%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.main {
+    width: 1280px;
+    margin: 0px;
+    padding: 0px;
+}
+.section_first {
+    width: 1280px;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    border: solid black 1px;
+}
+.contacts_and_about_me {
+    width: 1280px;
+    height: 150px;
+    display: inline-flex;
+}
+.contacts {
+    width: 250px;
+    height: 130px;
+}
+.contacts_list {
+    list-style-type: none;
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 30px;
+    padding-left: 30px;
+}
+.about_me_block {
+    width: 900px;
+    height: 130px;
+    padding-left: 100px;
+    text-align: left;
+    margin: 0px;
+    padding-top: 0px;
+}
+.about_me {
+    width: 900px;
+    height: 80px;
+    text-align: left;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 29px;
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 30px;
+}
+.hTwo_contacts {
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 30px;
+    padding-left: 30px;
+    text-decoration: underline;
+}
+.hTwo_about_me {
+    text-align: left;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 30px;
+    padding-left: 30px;
+    text-decoration: underline;
+}
