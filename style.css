@@ -147,3 +147,75 @@ header {
     padding-left: 30px;
     text-decoration: underline;
 }
+.section_second {
+    width: 1280px;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    border: solid black 1px;
+}
+.languages_and_education {
+    width: 1280px;
+    height: 150px;
+    display: inline-flex;
+}
+.languages {
+    width: 250px;
+    height: 130px;
+}
+.languages_list {
+    list-style-type: none;
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 30px;
+    padding-left: 30px;
+}
+.hTwo_languages {
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 30px;
+    padding-left: 30px;
+    text-decoration: underline;
+}
+.education_block {
+    width: 900px;
+    height: 130px;
+    padding-left: 100px;
+    text-align: left;
+    margin: 0px;
+    padding-top: 0px;
+}
+.educaion {
+    width: 900px;
+    height: 80px;
+    text-align: left;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 29px;
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 30px;
+}
+.hTwo_education {
+    text-align: left;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 30px;
+    padding-left: 30px;
+    text-decoration: underline;
+}
+.education_list {
+    list-style-type: none;
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 30px;
+    padding-left: 30px;
+}
