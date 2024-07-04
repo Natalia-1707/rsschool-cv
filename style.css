@@ -3,7 +3,6 @@ html {
     margin: 0 auto;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: rgba(255, 255, 255, 0.555);
 }
 
 body {
@@ -15,9 +14,9 @@ body {
 header {
     width: 1280px;
     height: 300px;
-    margin: 0;
+    margin: 10px;
     padding: 0px;
-    border: solid black 1px;
+    background-color: rgb(229,228,226);
 }
 .header_container {
     width: 1280px;
@@ -27,7 +26,7 @@ header {
     display: inline-flex;
 }
 .photo {
-    padding-left: 30px;
+    padding-left: 0px;
 }
 .header_description {
     width: 900px;
@@ -46,10 +45,13 @@ header {
     display: inline-flex;
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    gap: 50px;
+    font-size: 20px;
+    gap: 100px;
     margin: 0px;
     padding: 0px;
+}
+.link_nav {
+    text-decoration: none;
 }
 .CV_name {
     width: 800px;
@@ -86,9 +88,8 @@ header {
 .section_first {
     width: 1280px;
     height: 150px;
-    margin: 0px;
     padding: 0px;
-    border: solid black 1px;
+    border-bottom: solid 1px rgb(85, 107, 47);
 }
 .contacts_and_about_me {
     width: 1280px;
@@ -152,7 +153,7 @@ header {
     height: 150px;
     margin: 0px;
     padding: 0px;
-    border: solid black 1px;
+    border-bottom: solid 1px rgb(85, 107, 47);
 }
 .languages_and_education {
     width: 1280px;
@@ -212,7 +213,7 @@ header {
     height: 460px;
     margin: 0px;
     padding: 0px;
-    border: solid black 1px;
+    border-bottom: solid 1px rgb(85, 107, 47);
 }
 .skills_and_code_example {
     width: 1280px;
@@ -252,5 +253,27 @@ header {
     font-family: 'Times New Roman', Times, serif;
     font-size: 13px;
     line-height: 25px;
-
+}
+.footer {
+    width: 1280px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(229,228,226);
+}
+.footer_block {
+    display: inline-flex;
+}
+.rsschool {
+    padding - left: 20px;
+}
+.year {
+    padding-left: 570px;
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.github {
+    padding-top: 8px;
+    padding-left: 570px;
 }
