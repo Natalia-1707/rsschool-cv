@@ -68,6 +68,43 @@
                 </div>
             </div>
         </section>
+        <section class="section_third">
+            <div class="skills_and_code_example">
+                <div class="skills">
+                    <h2 class="hTwo_skills">Skills</h2>
+                    <ul class="skills_list">
+                        <li class="skills_text">amoCRM</li>
+                        <li class="skills_text">Bitrix24</li>
+                        <li class="skills_text">1C</li>
+                        <li class="skills_text">Figma</li>
+                        <li class="skills_text">HTML</li>
+                        <li class="skills_text">CSS</li>
+                        <li class="skills_text">JavaScript</li>
+                        <li class="skills_text">Python</li>
+                    </ul>
+                </div>
+                <div class="code_example_block">
+                    <code class="code"><pre>
+                        const readline = require('readline');
+                        const rl = readline.createInterface({
+                            input: process.stdin,
+                            output: process.stdout
+                        });
+                        function lettersCount(str) {
+                            let strArray = str.slice(1, -1).split("][");
+                            result = strArray.map((element) => element.length).join(", ");
+                            return result;
+                        }
+                        rl.on('line', (input) => {
+                            let result, str = input.trim();
+                            result = lettersCount(str);
+                            console.log(result);
+                            rl.close();
+                        })
+                    </pre></code>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
