@@ -14,7 +14,6 @@ body {
 header {
     width: 1280px;
     height: 300px;
-    margin: 10px;
     padding: 0px;
     background-color: rgb(229,228,226);
 }
@@ -29,11 +28,12 @@ header {
     padding-left: 0px;
 }
 .header_description {
-    width: 900px;
-    height: 260px;
-    margin-top: 20px;
+    width: 1030px;
+    height: 300px;
     display: inline-flex;
     flex-direction: column;
+    background-color: rgb(85, 107, 47);
+    opacity: 80%;
 }
 .navigation {
     width: 800px;
@@ -43,12 +43,12 @@ header {
 .nav {
     list-style-type: none;
     display: inline-flex;
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman',Times serif;
     font-size: 20px;
     gap: 100px;
     margin: 0px;
     padding: 0px;
+    color: rgb(229,228,226);
 }
 .link_nav {
     text-decoration: none;
@@ -62,21 +62,19 @@ header {
 }
 .my_name {
     font-family: 'Times New Roman', Times, serif;;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: rgb(85, 107, 47);
-    opacity: 90%;
+    color: rgb(229,228,226);
     letter-spacing: 1px;
 }
 .my_future_profession {
     padding: 0px 86px 65px 91px;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     letter-spacing: 0.5px;
-    color: rgb(76, 81, 74);
-    opacity: 80%;
+    color: rgb(229,228,226);
     text-align: center;
     letter-spacing: 1px;
 }
@@ -87,124 +85,124 @@ header {
 }
 .section_first {
     width: 1280px;
-    height: 150px;
+    height: 220px;
     padding: 0px;
     border-bottom: solid 1px rgb(85, 107, 47);
 }
 .contacts_and_about_me {
     width: 1280px;
-    height: 150px;
+    height: 220px;
     display: inline-flex;
 }
 .contacts {
-    width: 250px;
-    height: 130px;
+    width: 390px;
+    height: 220px;
+    background-color: rgb(229,228,226);
 }
 .contacts_list {
     list-style-type: none;
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 25px;
     line-height: 30px;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 .about_me_block {
     width: 900px;
-    height: 130px;
-    padding-left: 100px;
+    height: 220px;
     text-align: left;
     margin: 0px;
     padding-top: 0px;
+    background-color: rgb(229,228,226);
 }
 .about_me {
-    width: 900px;
+    width: 880px;
     height: 80px;
     text-align: left;
     margin: 0px;
-    padding-top: 0px;
+    padding-top: 3px;
     padding-left: 29px;
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 25px;
     line-height: 30px;
 }
 .hTwo_contacts {
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 30px;
     line-height: 30px;
-    padding-left: 30px;
-    text-decoration: underline;
+    padding-left: 15px;
+    padding-top: 7px;
 }
 .hTwo_about_me {
     text-align: left;
     margin: 0px;
-    padding-top: 15px;
-    padding-bottom: 17px;
+    padding-bottom: 19px;
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 30px;
     line-height: 30px;
     padding-left: 30px;
-    text-decoration: underline;
+    padding-top: 30px;
 }
 .section_second {
     width: 1280px;
-    height: 150px;
+    height: 220px;
     margin: 0px;
     padding: 0px;
     border-bottom: solid 1px rgb(85, 107, 47);
 }
 .languages_and_education {
     width: 1280px;
-    height: 150px;
+    height: 220px;
     display: inline-flex;
 }
 .languages {
-    width: 250px;
-    height: 130px;
+    width: 390px;
+    height: 220px;
+    background-color:rgb(229,228,226);
 }
 .languages_list {
     list-style-type: none;
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 25px;
     line-height: 30px;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 .hTwo_languages {
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 30px;
     line-height: 30px;
-    padding-left: 30px;
-    text-decoration: underline;
+    padding-left: 15px;
 }
 .education_block {
     width: 900px;
-    height: 130px;
-    padding-left: 100px;
+    height: 220px;
+    padding-left: 0px;
     text-align: left;
     margin: 0px;
     padding-top: 0px;
+    background-color:rgb(229,228,226);
 }
 .hTwo_education {
     text-align: left;
     margin: 0px;
-    padding-top: 15px;
+    padding-top: 28px;
     padding-bottom: 0px;
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 30px;
     line-height: 30px;
     padding-left: 30px;
-    text-decoration: underline;
 }
 .education_list {
     list-style-type: none;
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 25px;
     line-height: 30px;
     padding-left: 30px;
 }
@@ -217,42 +215,53 @@ header {
 }
 .skills_and_code_example {
     width: 1280px;
-    height: 330px;
+    height: 450px;
     display: inline-flex;
 }
 .skills {
-    width: 250px;
-    height: 310px;
+    width: 390px;
+    height: 450px;
+    background-color:rgb(229,228,226);
 }
 .skills_list {
     list-style-type: none;
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 25px;
     line-height: 30px;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 .hTwo_skills {
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
+    font-size: 30px;
     line-height: 30px;
-    padding-left: 30px;
-    text-decoration: underline;
+    padding-left: 15px;
 }
 .code_example_block {
     width: 900px;
-    height: 300px;
-    padding-left: 100px;
-    text-align: left;
+    height: 450px;
     margin: 0px;
     padding-top: 0px;
+    position: relative;
+    font-size: 25px;
+    line-height: 25px;
+}
+.code {
+    width: 900px;
+    height: 450px;
 }
 .code {
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 13px;
+    font-size: 25px;
     line-height: 25px;
+    position: relative;
+}
+.pre_code{
+    width: 900px;
+    height: 450px;
+    position: relative;
 }
 .footer {
     width: 1280px;
@@ -265,7 +274,7 @@ header {
     display: inline-flex;
 }
 .rsschool {
-    padding - left: 20px;
+    padding-left: 20px;
 }
 .year {
     padding-left: 570px;
