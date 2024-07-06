@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <div class = "header_container">
+            <div class = "photo">
+                <img class="header_img" src="img/photo.JPG" alt="my_photo" width="250" height="300">
+            </div>
+            <div class = "header_description">
+                <nav class="navigation">
+                    <ul id="nav" class="nav">
+                        <li class="text_nav"><a class="link_nav" href="#aboutme" style="color: rgb(229,228,226)">About me</a></li>
+                        <li class="text_nav"><a class="link_nav" href="#education" style="color:  rgb(229,228,226)">Education</a></li>
+                        <li class="text_nav"><a class="link_nav" href="#workingexperience" style="color:  rgb(229,228,226)">Working experience</a></li>
+                        <li class="text_nav"><a class="link_nav" href="#codeexample" style="color:  rgb(229,228,226)">Code example</a></li>
+                        <li class="text_nav"><a class="link_nav" href="#skills" style="color: rgb(229,228,226)">Skills</a></li>
+                        <li class="text_nav"><a class="link_nav" href="#contacts" style="color:  rgb(229,228,226)">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="CV_name">
+                    <h1 class = "my_name">Natalia Tsepoukhova</h1>
+                    <p class="my_future_profession"> Junior Front-end developer</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id = "aboutme" class="section_first">
+            <div class="contacts_and_about_me">
+                <div id = "contacts" class="contacts">
+                    <h2 class="hTwo_contacts">Contacts</h2>
+                    <ul class="contacts_list">
+                        <li class="contacts_text"><img class="tg_img" src="img/telegram-_1_.svg" alt="telegramlogo" width="25" height="25"> @ntdanilova</li>
+                        <li class="contacts_text">nataliatsepoukhowa@gmail.com</li>
+                        <li class="contacts_text">Moscow, Russia</li>
+                     </ul>
+                </div>
+                <div class="about_me_block">
+                    <h2 class="hTwo_about_me">About me</h2>
+                    <p class="about_me">I have linguistic education and work experience in customer service, but a year ago i decided to try something new. Firstly I began to learn Python and got base of it, but then i got intereseted in Front-end, so i'm here.</p>
+                </div>
+            </div>
+        </div>
+        <div id = "education" class="section_second">
+            <div class="languages_and_education">
+                <div class="languages">
+                    <h2 class="hTwo_languages">Languages</h2>
+                    <ul class="languages_list">
+                        <li class="languages_text">Russian - native</li>
+                        <li class="languages_text">English - B2</li>
+                        <li class="languages_text">German - C1</li>
+                     </ul>
+                </div>
+                <div class="education_block">
+                    <h2 class="hTwo_education">Education</h2>
+                    <ul class="education_list">
+                        <li class="education_text">2016: Moscow City University: Bachelor of linguistics, international communication</li>
+                        <li class="education_text">2018: Moscow City University: Master of linguistics, international communication</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section_third">
+            <div class="skills_and_working_experience">
+                <div id= "skills" class="skills">
+                    <h2 class="hTwo_skills">Skills</h2>
+                    <ul class="skills_list">
+                        <li class="skills_text">amoCRM</li>
+                        <li class="skills_text">Bitrix24</li>
+                        <li class="skills_text">1C</li>
+                        <li class="skills_text">Figma</li>
+                        <li class="skills_text">HTML</li>
+                        <li class="skills_text">CSS</li>
+                        <li class="skills_text">JavaScript</li>
+                        <li class="skills_text">Python</li>
+                    </ul>
+                </div>
+                <div id="workingexperience" class="working_experience_block">
+                    <h2 class="hTwo_working_experience">Working experience</h2>
+                    <ul class="working_experience_list">
+                        <li class="working_experience_text">2023 - present - Manager in Austrian Institute</li>
+                        <li class="working_experience_text">2020-2023 - Sales manager at Univibes Project</li>
+                        <li class="working_experience_text">2018-2020 - Account and Sales manager at Reed Exhibitions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="codeexample" class="section_fourth">
+            <div class="code_example_block">
+                <pre class="pre_code"><code class="code">
+                    const readline = require('readline');
+                    const rl = readline.createInterface({
+                        input: process.stdin,
+                        output: process.stdout
+                    });
+                    function lettersCount(str) {
+                        let strArray = str.slice(1, -1).split("][");
+                        result = strArray.map((element) => element.length).join(", ");
+                        return result;
+                    }
+                    rl.on('line', (input) => {
+                        let result, str = input.trim();
+                        result = lettersCount(str);
+                        console.log(result);
+                        rl.close();
+                    })
+                </code></pre>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer_block">
+            <div class="rsschool">
+            <a href="https://rs.school/courses/javascript-ru"><img class="logo_rs" src="img/logo-rsschool3.svg" alt="logo RS" width="70" height="70"></a>
+            </div>
+            <div class="year">
+            <p>2024</p>
+            </div>
+            <div class="github">
+            <a href="https://github.com/Natalia-1707"><img class="github_icon" src="img/github.svg" alt="github" width="40" height="40"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
