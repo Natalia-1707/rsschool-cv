@@ -50,6 +50,7 @@ header {
 }
 .link_nav {
     text-decoration: none;
+    color: rgb(229,228,226);
 }
 .link_nav:hover {
     text-decoration: underline;
@@ -267,7 +268,7 @@ header {
 
 .section_fourth {
     width: 1280px;
-    height: 500px;
+    height: 300px;
     background-color:rgb(229,228,226);
     padding-top: 1px;
     border-bottom: solid 1px rgb(85, 107, 47);
@@ -281,14 +282,17 @@ header {
 }
 .code_example_block {
     width: 900px;
-    height: 450px;
+    height: 250px;
     margin: 0px;
-    padding-top: 0px;
+    padding-top: 15px;
     padding-left: 325px;
     text-align: left;
     font-size: 25px;
     line-height: 25px;
     background-color:rgb(229,228,226);
+}
+.pre_code {
+    margin: 0;
 }
 .footer {
     width: 1280px;
