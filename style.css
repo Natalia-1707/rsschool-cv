@@ -20,7 +20,7 @@ header {
     height: 300px;
     margin: 0px;
     padding: 0px;
-    display: inline-flex;
+    display: flex;
 }
 .photo {
     padding-left: 0px;
@@ -28,19 +28,19 @@ header {
 .header_description {
     width: 1030px;
     height: 300px;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     background-color: rgb(85, 107, 47);
     opacity: 80%;
 }
 .navigation {
-    width: 900px;
-    height: 80px;
-    padding-left: 100px;
+    width: auto;
+    height: auto;
+    margin: 1px auto;
 }
 .nav {
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
     font-family: 'Times New Roman',Times serif;
     font-size: 20px;
     gap: 50px;
@@ -48,19 +48,23 @@ header {
     padding: 0;
     color: rgb(229,228,226);
 }
+
 .link_nav {
+    width: auto;
     text-decoration: none;
     color: rgb(229,228,226);
 }
+
 .link_nav:hover {
     text-decoration: underline;
+    color: #ffffff;
 }
+
 .CV_name {
     width: 800px;
     height: 130px;
-    padding-left: 100px;
     text-align: center;
-    margin: 0px;
+    margin: auto;
 }
 .my_name {
     font-family: 'Times New Roman', Times, serif;;
@@ -85,235 +89,153 @@ header {
     margin: 0px;
     padding: 0px;
 }
-.section_first {
+.section_first,
+.section_second,
+.section_third,
+.section_fourth {
     width: 1280px;
-    height: 220px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0px;
-    border-bottom: solid 1px rgb(85, 107, 47);
 }
-.contacts_and_about_me {
+
+.contacts_and_about_me,
+.languages_and_education,
+.skills_and_working_experience,
+.projects_and_code {
     width: 1280px;
-    height: 220px;
-    display: inline-flex;
+    height: auto;
+    display: flex;
 }
-.contacts {
-    width: 390px;
-    height: 220px;
-    background-color: rgb(229,228,226);
-}
+
 .contacts_list {
     list-style-type: none;
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
     padding-left: 15px;
 }
-.about_me_block {
-    width: 900px;
-    height: 220px;
-    text-align: left;
-    margin: 0px;
-    padding-top: 0px;
-    background-color: rgb(229,228,226);
-}
+
 .about_me {
-    width: 880px;
-    height: 80px;
+    width: auto;
+    height: auto;
     text-align: left;
     margin: 0px;
     padding-top: 3px;
-    padding-left: 29px;
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    line-height: 30px;
-}
-.hTwo_contacts {
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    line-height: 30px;
-    padding-left: 15px;
-    padding-top: 7px;
-}
-.hTwo_about_me {
-    text-align: left;
-    margin: 0px;
-    padding-bottom: 19px;
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    line-height: 30px;
-    padding-left: 30px;
-    padding-top: 30px;
-}
-.section_second {
-    width: 1280px;
-    height: 220px;
-    margin: 0px;
-    padding: 0px;
-    border-bottom: solid 1px rgb(85, 107, 47);
-}
-.languages_and_education {
-    width: 1280px;
-    height: 220px;
-    display: inline-flex;
-}
-.languages {
-    width: 390px;
-    height: 220px;
-    background-color:rgb(229,228,226);
-}
-.languages_list {
-    list-style-type: none;
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    line-height: 30px;
-    padding-left: 15px;
-}
-.hTwo_languages {
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    line-height: 30px;
-    padding-left: 15px;
-}
-.education_block {
-    width: 900px;
-    height: 220px;
-    padding-left: 0px;
-    text-align: left;
-    margin: 0px;
-    padding-top: 0px;
-    background-color:rgb(229,228,226);
-}
-.hTwo_education {
-    text-align: left;
-    margin: 0px;
-    padding-top: 28px;
-    padding-bottom: 0px;
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    line-height: 30px;
-    padding-left: 30px;
-}
-.education_list {
-    list-style-type: none;
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    line-height: 30px;
-    padding-left: 30px;
-}
-.section_third {
-    width: 1280px;
-    height: 350px;
-    margin: 0px;
-    padding: 0px;
-    border-bottom: solid 1px rgb(85, 107, 47);
-}
-.skills_and_working_experience {
-    width: 1280px;
-    height: 350px;
-    display: inline-flex;
-}
-.skills {
-    width: 390px;
-    height: 350px;
-    background-color:rgb(229,228,226);
-}
-.skills_list {
-    list-style-type: none;
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    line-height: 30px;
-    padding-left: 15px;
-}
-.hTwo_skills {
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    line-height: 30px;
-    padding-left: 15px;
-}
-.working_experience_list {
-    list-style-type: none;
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    line-height: 30px;
-    padding-left: 30px;
-}
-.working_experience_block {
-    width: 900px;
-    height: 350px;
-    margin: 0px;
-    padding-top: 0px;
-    text-align: left;
-    font-size: 25px;
-    line-height: 25px;
-    background-color:rgb(229,228,226);
-}
-.hTwo_working_experience {
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    line-height: 30px;
-    padding-left: 28px;
-}
-
-.section_fourth {
-    width: 1280px;
-    height: 300px;
-    background-color:rgb(229,228,226);
-    padding-top: 1px;
-    border-bottom: solid 1px rgb(85, 107, 47);
-}
-.code {
-    color: rgb(85, 107, 47);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    line-height: 25px;
-    position: relative;
-}
-.code_example_block {
-    width: 900px;
-    height: 250px;
-    margin: 0px;
-    padding-top: 15px;
-    padding-left: 325px;
-    text-align: left;
-    font-size: 25px;
-    line-height: 25px;
-    background-color:rgb(229,228,226);
-}
-.pre_code {
-    margin: 0;
-}
-.footer {
-    width: 1280px;
-    height: 90px;
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(229,228,226);
-}
-.footer_block {
-    display: inline-flex;
-}
-.rsschool {
-    padding-left: 490px;
-}
-.year {
     padding-left: 30px;
     color: rgb(85, 107, 47);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    line-height: 30px;
 }
-.github {
-    padding-top: 8px;
-    padding-left: 40px;
+
+
+.skills,
+.projects,
+.languages,
+.contacts {
+    width: 380px;
+    height: auto;
+    background-color:rgb(229,228,226);
+    border-right: 1px solid  rgb(85, 107, 47);
+}
+
+.languages_list,
+.skills_list,
+.projects_list {
+    list-style-type: none;
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 15px;
+}
+
+.projects_list a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.project a:hover {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.working_experience_list,
+.education_list {
+    list-style-type: none;
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 30px;
+}
+
+.about_me_block,
+.education_block,
+.working_experience_block,
+.code_example_block {
+    width: 900px;
+    height: auto;
+    margin: 0px;
+    padding-top: 0px;
+    text-align: left;
+    font-size: 25px;
+    line-height: 25px;
+    background-color:rgb(229,228,226);
+}
+
+.hTwo_working_experience,
+.hTwo_code_example,
+.hTwo_skills,
+.hTwo_projects,
+.hTwo_languages,
+.hTwo_education,
+.hTwo_about_me,
+.hTwo_contacts {
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: 30px;
+    padding-left: 28px;
+}
+
+.code {
+    width: auto;
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+    white-space: pre;
+}
+
+.pre_code {
+    width: auto;
+    height: auto;
+    padding-left: 0;
+}
+
+.footer {
+    width: 1280px;
+    height: auto;
+    background-color: rgb(229,228,226);
+    border-top: 1px solid rgb(85, 107, 47);
+}
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.year {
+    color: rgb(85, 107, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
