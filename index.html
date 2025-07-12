@@ -20,6 +20,7 @@
                         <li class="text_nav"><a class="link_nav" href="#workingexperience">Working experience</a></li>
                         <li class="text_nav"><a class="link_nav" href="#codeexample">Code example</a></li>
                         <li class="text_nav"><a class="link_nav" href="#skills">Skills</a></li>
+                        <li class="text_nav"><a class="link_nav" href="#projects">Projects</a></li>
                         <li class="text_nav"><a class="link_nav" href="#contacts">Contacts</a></li>
                     </ul>
                 </nav>
@@ -32,17 +33,17 @@
     </header>
 
     <main>
-        <div id="aboutme" class="section_first">
+        <div class="section_first">
             <div class="contacts_and_about_me">
                 <div id="contacts" class="contacts">
                     <h2 class="hTwo_contacts">Contacts</h2>
                     <ul class="contacts_list">
-                        <li class="contacts_text"><img class="tg_img" src="img/telegram-_1_.svg" alt="telegramlogo" width="25" height="25"> @ntdanilova</li>
+                        <li class="contacts_text"><img class="tg_img" src="img/telegram-_1_.svg" alt="telegramlogo" width="20" height="20"> @ntdanilova</li>
                         <li class="contacts_text">nataliatsepoukhowa@gmail.com</li>
                         <li class="contacts_text">Moscow, Russia</li>
                      </ul>
                 </div>
-                <div class="about_me_block">
+                <div class="about_me_block" id="aboutme">
                     <h2 class="hTwo_about_me">About me</h2>
                     <p class="about_me">I have linguistic education and work experience in customer service, but a year ago i decided to try something new. Firstly I began to learn Python and got base of it, but then i got intereseted in Front-end, so i'm here.</p>
                 </div>
@@ -72,17 +73,16 @@
                 <div id="skills" class="skills">
                     <h2 class="hTwo_skills">Skills</h2>
                     <ul class="skills_list">
-                        <li class="skills_text">amoCRM</li>
-                        <li class="skills_text">Bitrix24</li>
-                        <li class="skills_text">1C</li>
                         <li class="skills_text">Figma</li>
                         <li class="skills_text">HTML</li>
                         <li class="skills_text">CSS</li>
                         <li class="skills_text">JavaScript</li>
+                        <li class="skills_text">TypeScript</li>
+                        <li class="skills_text">Webpack</li>
                         <li class="skills_text">Python</li>
                     </ul>
                 </div>
-                <div id="workingexperience" class="working_experience_block">
+                <div class="working_experience_block" id="workingexperience">
                     <h2 class="hTwo_working_experience">Working experience</h2>
                     <ul class="working_experience_list">
                         <li class="working_experience_text">2023 - present - Manager in Austrian Institute</li>
@@ -91,35 +91,48 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div id="codeexample" class="section_fourth">
-            <div class="code_example_block">
-                <pre class="pre_code"><code class="code">
-                    function mergeArrays(arr1, arr2) {
-                        const result = [...arr1, ...arr2];
-                        const newSet = new Set(result);
-                        const uniqueNumbers = Array.from(newSet);
-                        return uniqueNumbers.sort((a, b) =&gt; a - b);
-                        if (uniqueNumbers.length == 0) {
-                          return uniqueNumbers;
-                        }
-                      }
-                </code></pre>
+        </div>     
+        <div class="section_fourth">
+            <div class="projects_and_code">
+                <div class="projects" id="projects">
+                    <h2 class="hTwo_projects">Projects</h2>
+                        <ul class="projects_list">
+                            <li class="project"><a href="https://natalia-1707.github.io/Christmas-shop/Christmas_Shop/" target="_blank">Christmas shop</a></li>
+                            <li class="project"><a href="https://natalia-1707.github.io/cssMemeSlider/cssMemeSlider/index.html" target="_blank">CSS Meme Slider</a></li>
+                            <li class="project"><a href="https://rolling-scopes-school.github.io/natalia-1707-JSFEPRESCHOOL2024Q2/js30game" target="_blank">Tic Tac Toe</a></li>
+                        </ul>
+                </div>
+                <div class="code_example_block" id="codeexample">
+                    <h2 class="hTwo_code_example">Code example</h2>
+                    <div class="pre_code">
+                        <pre class="code">
+    function mergeArrays(arr1, arr2) {
+        const result = [...arr1, ...arr2];
+        const newSet = new Set(result);
+        const uniqueNumbers = Array.from(newSet);
+        return uniqueNumbers.sort((a, b) =&gt; a - b);
+        if (uniqueNumbers.length == 0) {
+             return uniqueNumbers;
+        }
+    }
+                        </pre>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
     <footer class="footer">
         <div class="footer_block">
             <div class="rsschool">
-            <a href="https://rs.school/courses/javascript-ru"><img class="logo_rs" src="img/logo-rsschool3.svg" alt="logo RS" width="70" height="70"></a>
+            <a href="https://rs.school/courses/javascript-preschool-ru" target="blank"><img class="logo_rs" src="img/logo-rsschool3.svg" alt="logo RS" width="70" height="70"></a>
             </div>
             <div class="year">
-            <p>2024</p>
+            <p>2025</p>
             </div>
             <div class="github">
-            <a href="https://github.com/Natalia-1707"><img class="github_icon" src="img/github.svg" alt="github" width="40" height="40"></a>
+            <a href="https://github.com/Natalia-1707" target="blank"><img class="github_icon" src="img/github.svg" alt="github" width="40" height="40"></a>
             </div>
         </div>
     </footer>
 </body>
-</html>
+</html> 
